@@ -21,7 +21,7 @@ public class Developer extends Employee {
         if(this.projectManager == null){
             this.projectManager = projectManager;
         }else{
-            throw new IllegalStateException(super.getName() + " already has a manager: " + projectManager.getName());
+            throw new IllegalStateException(this.getName() + " already has a manager: " + this.projectManager.getName());
         }
     }
 

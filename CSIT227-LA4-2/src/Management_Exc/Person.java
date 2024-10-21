@@ -14,7 +14,7 @@ public abstract class Person {
         this.name = name;
         this.age = age;
         if(age < 0 ){
-            throw new IllegalArgumentException("Age must be non-negative");
+            throw new IllegalArgumentException("Age must be non-negative.");
         }
     }
 
